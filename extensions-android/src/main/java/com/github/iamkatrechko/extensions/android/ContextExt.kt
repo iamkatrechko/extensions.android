@@ -1,6 +1,7 @@
 package com.github.iamkatrechko.extensions.android
 
 import android.content.Context
+import android.view.LayoutInflater
 import android.widget.Toast
 import androidx.annotation.StringRes
 
@@ -13,3 +14,7 @@ fun Context.showToast(message: String) {
 fun Context.showToast(@StringRes messageId: Int) {
     Toast.makeText(this, messageId, Toast.LENGTH_SHORT).show()
 }
+
+/** [LayoutInflater] */
+val Context.inflater: LayoutInflater
+    get() = LayoutInflater.from(this)
