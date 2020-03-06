@@ -10,7 +10,7 @@ android {
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 1
-        versionName "1.0"
+        versionName "1.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -24,7 +24,7 @@ publish {
     repoName = "public-maven-repository"
     groupId = 'com.github.iamkatrechko'
     artifactId = 'extensions.android'
-    publishVersion = '1.0'
+    publishVersion = '1.1'
     desc = 'Набор extension-функций для android'
     licences = ['Apache-2.0']
     website = 'https://github.com/iamkatrechko/extensions.android'
